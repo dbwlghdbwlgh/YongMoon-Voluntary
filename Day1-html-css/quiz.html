@@ -57,6 +57,7 @@
     <div class="quiz_container">
       <div class="question">
         <!-- p태그를 이용하여 첫 번째 문제를 내주세요 -->
+        <p>나의 프로필 사진으로 맞는 것은??</p>
       </div>
       <div class="option">
         <div id="answer_option">
@@ -65,18 +66,23 @@
               <img id="profile" src="profile.jpg" width="10%">
               <div id="q1_radio">
                 <!-- input 타입 중 radio를 이용하여 보기1을 만들어주세요 -->
+                <input type="radio" name="num1">선글라스쓴놈
               </div>
           </div>
           <div id="q1_answer">
               <!-- 이미지 넣기를 이용하여 보기 이미지2를 넣어주세요 (id는 "profile") -->
+              <img src="profile2.jpg" height="110px">
               <div id="q1_radio">
                 <!-- input 타입 중 radio를 이용하여 보기2를 만들어주세요 -->
+                <input type="radio" name="num1">망토찬놈
               </div>
           </div>
           <div id="q1_answer">
               <!-- 이미지 넣기를 이용하여 보기 이미지3을 넣어주세요 (id는 "profile") -->
+              <img src="profile3.jpg" height="110px">
               <div id="q1_radio">
                 <!-- input 타입 중 radio를 이용하여 보기3을 만들어주세요 -->
+                <input type="radio" name="num1">하트들고있는놈
               </div>
           </div>
         </div>
@@ -87,6 +93,7 @@
         <div class="answer_container">
           <p class="answer_is"><strong>정답은 바로!!</strong></p>
           <!-- p태그를 이용하여 첫 번째 문제의 정답을 써주세요 -->
+          <p>선글라스쓴놈</p>
         </div>
       </div>
     </div>
@@ -97,9 +104,11 @@
     <div class="quiz_container">
       <div class="question">
         <!-- p태그를 이용하여 두 번째 문제를 내주세요 -->
+        <p>나의 생일은?</p>
       </div>
       <div class="option">
         <!-- input 타입 중 text를 이용하여 입력창을 만들어주세요 (placeholder 사용해보기) -->
+        <input type="text" placeholder="?월 ??일">
       </div>
 
       <div class="answer">
@@ -107,6 +116,7 @@
         <div class="answer_container">
           <p class="answer_is"><strong>정답은 바로!!</strong></p>
           <!-- p태그를 이용하여 두 번째 문제의 정답을 써주세요 -->
+          <p>3월 22일</p>
         </div>
       </div>
     </div>
@@ -117,16 +127,22 @@
     <div class="quiz_container">
       <div class="question">
         <!-- p태그를 이용하여 세 번째 문제를 내주세요 -->
+        <p>나의 취미는?</p>
       </div>
       <div class="option">
         <!-- input 타입 중 checkbox를 이용하여 3개 이상의 보기를 만들어주세요 -->
-      </div>
+        <input type="checkbox" name="num2">영화보기
+      </div>me="num2">독서하기
+        <input type="checkbox" name="num2">잠자기
+        <input type="checkbox" na
 
       <div class="answer">
         <input type="button" id="real_answer" value="정답 확인" >
         <div class="answer_container">
           <p class="answer_is"><strong>정답은 바로!!</strong></p>
           <!-- p태그를 이용하여 세 번째 문제의 정답을 써주세요 -->
+          <p>잠자기, 영화보기</p>
+
         </div>
       </div>
     </div>
